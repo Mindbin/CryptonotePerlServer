@@ -1,0 +1,7 @@
+Options +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex server.pl
+<files "*.pm">
+        order allow,deny
+        deny from all
+</files>
